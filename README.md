@@ -6,6 +6,13 @@ Download or clone repo to your project. Include animateScroll.css inside <header
   
 ## Usage 
 ```html
+    <div class="wrapper">
+        <div class="box animateScroll animateScroll--arrival-up"></div>
+        <div class="box animateScroll animateScroll--arrival-down"></div>
+        <div class="box animateScroll animateScroll--arrival-left-right"></div>
+        <div class="box animateScroll animateScroll--arrival-right-left"></div>
+    </div>
+
     <script src="js/scrollAppear.js"></script>
     <script>
         let scrollEvent = new ScrollAppear('box');
